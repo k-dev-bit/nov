@@ -43,7 +43,6 @@ jobs:
 
           echo "SDKMANAGER=$SDKMANAGER" >> "$GITHUB_ENV"
           echo "Found: $SDKMANAGER"
-          chmod +x "$SDKMANAGER"
 
       - name: Accept Android Licenses
         shell: bash
